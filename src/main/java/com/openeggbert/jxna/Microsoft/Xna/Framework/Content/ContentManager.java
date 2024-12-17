@@ -12,5 +12,12 @@ import com.openeggbert.jdotnet.System.IDisposable;
  */
 public abstract class ContentManager implements IDisposable {
     public abstract <T> T Load(String assetName);
+    public String getRootDirectory() {
+    return "";
+    //todo
+    }
+    public void setRootDirectory(String rootDirectory) {
+    //todo
+    }
 
 }

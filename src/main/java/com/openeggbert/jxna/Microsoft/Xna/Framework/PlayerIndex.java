@@ -8,16 +8,9 @@ package com.openeggbert.jxna.Microsoft.Xna.Framework;
  *
  * @author robertvokac
  */
-public class GraphicsDeviceManager {
-    public GraphicsDeviceManager(Game game) {
-        //todo
-    }
-    public boolean isFullScreen() {
-        return true;
-        //todo
-    }
-    public void setFullScreen(boolean value) {
-        //todo
-    }
-    
+public enum PlayerIndex {
+    One,
+    Two,
+    Three,
+    Four
 }

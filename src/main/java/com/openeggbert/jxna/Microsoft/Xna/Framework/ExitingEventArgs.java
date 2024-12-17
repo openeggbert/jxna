@@ -4,20 +4,15 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework;
 
+import com.openeggbert.jdotnet.System.EventArgs;
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  *
  * @author robertvokac
  */
-public class GraphicsDeviceManager {
-    public GraphicsDeviceManager(Game game) {
-        //todo
-    }
-    public boolean isFullScreen() {
-        return true;
-        //todo
-    }
-    public void setFullScreen(boolean value) {
-        //todo
-    }
-    
+public class ExitingEventArgs extends EventArgs {
+    @Getter @Setter
+    public boolean Cancel;
 }

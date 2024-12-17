@@ -4,20 +4,16 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework;
 
+import com.openeggbert.jdotnet.System.TimeSpan;
+import lombok.Getter;
+
 /**
  *
  * @author robertvokac
  */
-public class GraphicsDeviceManager {
-    public GraphicsDeviceManager(Game game) {
-        //todo
-    }
-    public boolean isFullScreen() {
-        return true;
-        //todo
-    }
-    public void setFullScreen(boolean value) {
-        //todo
-    }
+public class GameTime {
+    @Getter
+    public TimeSpan TotalGameTime;
+
     
 }
