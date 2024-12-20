@@ -4,7 +4,7 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
  * @author robertvokac
  */
 @AllArgsConstructor @NoArgsConstructor
-public class Vector2 extends Struct<Vector2> {
+public class Vector2 extends struct<Vector2> {
 
     public float X;
     public float Y;

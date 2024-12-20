@@ -4,13 +4,13 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Input;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 
 /**
  *
  * @author robertvokac
  */
-public class KeyboardState extends Struct<KeyboardState>{
+public class KeyboardState extends struct<KeyboardState>{
 
     public boolean IsKeyDown(Keys key) {
         return true;

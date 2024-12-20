@@ -4,7 +4,7 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Input.Touch;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 import com.openeggbert.jxna.Microsoft.Xna.Framework.Vector2;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
  * @author robertvokac
  */
 @AllArgsConstructor @NoArgsConstructor
-public class TouchLocation extends Struct<TouchLocation> {
+public class TouchLocation extends struct<TouchLocation> {
 
     public int Id;
     public Vector2 Position;

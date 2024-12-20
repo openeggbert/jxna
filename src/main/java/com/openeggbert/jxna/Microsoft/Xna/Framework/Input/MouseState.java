@@ -1,6 +1,6 @@
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Input;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
  */
 @AllArgsConstructor
 @NoArgsConstructor
-public class MouseState extends Struct<MouseState> {
+public class MouseState extends struct<MouseState> {
 
     private int _x;
 

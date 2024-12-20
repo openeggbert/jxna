@@ -4,7 +4,7 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Input.Touch;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 import com.openeggbert.jdotnet.System.Collections.Generic.List_;
 import java.util.Iterator;
 import lombok.Getter;
@@ -13,7 +13,7 @@ import lombok.Getter;
  *
  * @author robertvokac
  */
-public class TouchCollection extends Struct<TouchCollection> implements Iterable<TouchLocation> {
+public class TouchCollection extends struct<TouchCollection> implements Iterable<TouchLocation> {
 
     private List_<TouchLocation> touches = new List_<>();
     

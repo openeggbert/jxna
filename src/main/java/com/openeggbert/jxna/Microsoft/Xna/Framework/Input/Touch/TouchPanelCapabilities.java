@@ -4,7 +4,7 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Input.Touch;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
  */
 @AllArgsConstructor
 @NoArgsConstructor
-public class TouchPanelCapabilities extends Struct<TouchPanelCapabilities>{
+public class TouchPanelCapabilities extends struct<TouchPanelCapabilities>{
     private boolean hasPressure;
 
     private boolean isConnected;

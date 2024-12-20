@@ -4,7 +4,7 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Input;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 import lombok.Getter;
 
 /**
@@ -12,7 +12,7 @@ import lombok.Getter;
  * @author robertvokac
  */
 @Getter
-public class GamePadButtons extends Struct<GamePadButtons> {
+public class GamePadButtons extends struct<GamePadButtons> {
 
     @Override
     public GamePadButtons copy() {

@@ -4,14 +4,14 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Graphics;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Readonly;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.readonly;
 
 /**
  *
  * @author robertvokac
  */
 public class BlendState extends GraphicsResource{
-    public static @Readonly final BlendState AlphaBlend =  new BlendState("BlendState.AlphaBlend", Blend.One, Blend.InverseSourceAlpha);
+    public static @readonly final BlendState AlphaBlend =  new BlendState("BlendState.AlphaBlend", Blend.One, Blend.InverseSourceAlpha);
 
     private BlendState(String blendStateAlphaBlend, Blend blend, Blend blend0) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody

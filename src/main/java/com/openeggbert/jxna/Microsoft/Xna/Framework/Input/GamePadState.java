@@ -4,14 +4,14 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Input;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 import lombok.Getter;
 
 /**
  *
  * @author robertvokac
  */
-public class GamePadState extends Struct<GamePadState>{
+public class GamePadState extends struct<GamePadState>{
 
     @Override
     public GamePadState copy() {

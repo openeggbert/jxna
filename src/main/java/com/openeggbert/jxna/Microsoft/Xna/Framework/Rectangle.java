@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
  */
 @AllArgsConstructor
 @NoArgsConstructor
-public class Rectangle extends com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct<Rectangle> {
+public class Rectangle extends com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct<Rectangle> {
     
     private static final Rectangle emptyRectangle = new Rectangle().reset();
     

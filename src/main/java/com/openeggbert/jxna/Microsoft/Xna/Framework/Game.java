@@ -72,5 +72,8 @@ public class Game {
         return null;
         //todo
     }
+    public void Run() {
+        //todo
+    }
 
 }

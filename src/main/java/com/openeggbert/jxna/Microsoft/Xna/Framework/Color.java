@@ -4,18 +4,23 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework;
 
-import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.struct;
 import com.openeggbert.jdotnet.System.uint;
 
 /**
  *
  * @author robertvokac
  */
-public class Color extends Struct<Color> {
+public class Color extends struct<Color> {
 
     public static final Color CornflowerBlue;
     public static final Color White;
     private long _packedValue;
+
+    public static Color FromNonPremultiplied(int r, int g, int b, int a) {
+        return null;
+        //todo
+    }
 
     static {
         CornflowerBlue = new Color(4293760356l);
