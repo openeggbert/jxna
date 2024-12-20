@@ -4,6 +4,8 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework;
 
+import com.openeggbert.jxna.Microsoft.Xna.Framework.Graphics.GraphicsDevice;
+
 /**
  *
  * @author robertvokac
@@ -17,6 +19,18 @@ public class GraphicsDeviceManager {
         //todo
     }
     public void setFullScreen(boolean value) {
+        //todo
+    }
+    public void ToggleFullScreen() {
+        //todo
+    }
+
+    public boolean IsFullScreen() {
+        return false;
+        //todo
+    }
+    public GraphicsDevice GraphicsDevice() {
+        return null;
         //todo
     }
     

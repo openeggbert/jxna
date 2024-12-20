@@ -4,7 +4,7 @@
  */
 package com.openeggbert.jxna.Microsoft.Xna.Framework.Input;
 
-import com.openeggbert.jdotnet.System.Struct;
+import com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct;
 import lombok.Getter;
 
 /**

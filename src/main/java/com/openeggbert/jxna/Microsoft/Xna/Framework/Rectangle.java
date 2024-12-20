@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
  */
 @AllArgsConstructor
 @NoArgsConstructor
-public class Rectangle extends com.openeggbert.jdotnet.System.Struct<Rectangle> {
+public class Rectangle extends com.openeggbert.jdotnet.JDotNet.CSharpKeyWords.Struct<Rectangle> {
     
     private static final Rectangle emptyRectangle = new Rectangle().reset();
     
@@ -46,6 +46,17 @@ public class Rectangle extends com.openeggbert.jdotnet.System.Struct<Rectangle> 
     public int Top() { return  Y;}
 
     public int Bottom() { return  Y + Height;}
+    public boolean IsEmpty()
+    {
+        
+        {
+            if (Width == 0 && Height == 0 && X == 0)
+            {
+                return Y == 0;
+            }
 
+            return false;
+        }
+    }
     
 }
