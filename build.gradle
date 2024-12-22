@@ -33,7 +33,7 @@ dependencies {
   compileOnly "org.projectlombok:lombok:$lombokVersion"
   testImplementation "org.junit.jupiter:junit-jupiter-api:5.10.3"
   testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.10.3"
-  implementation "com.pixelgamelibrary:pixel:$pixelVersion"
+  implementation "com.openeggbert.pixel:pixel-framework:$pixelVersion"
   implementation "com.openeggbert.jdotnet:jdotnet:$jdotnetVersion"
 
  
